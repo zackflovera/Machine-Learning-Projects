@@ -46,7 +46,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42
 )
 
-# choose best degree excluding the testing data
+# choose best degree using training data
 best_degree = find_best_degree(X_data=X_train, Y_data=y_train)
 
 # Build the selected model
