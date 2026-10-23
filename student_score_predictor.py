@@ -10,7 +10,7 @@ study_hours = [[1], [2], [3], [4], [5], [6], [7], [8]]
 exam_scores = [42, 48, 55, 61, 68, 74, 81, 85]
 
 # creates a model based on defined x(study_hours) and y(exam_scores) values
-# sakes the model as student_score_model.pkl
+# saves the model as student_score_model.pkl
 
 
 def find_best_degree(X_data,
